@@ -1,0 +1,16 @@
+{{ define "content" }}
+
+<section class="container list">
+  <h1 class="title">{{ .Title }}</h1>
+  Wha
+  <ul>
+    {{ range .Paginator.Pages }}
+    <li>
+      <span>{{ .Date.Format "January 2, 2006" }}</span><a href="{{ .Permalink }}">{{ .Title }}</a>
+    </li>
+    {{ end }}
+  </ul>
+
+</section>
+
+{{ end }}
