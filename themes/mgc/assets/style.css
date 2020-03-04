@@ -1,0 +1,59 @@
+body {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgb(102, 102, 102);
+    background-image: url("/images/header.jpg");
+    background-origin: padding-box;
+    background-position: 0% 0%;
+    background-repeat: repeat-x;
+
+    font: 400 0.8em verdana, arial, sans-serif;
+    text-align: center;
+    line-height: 170%;
+
+    margin-top: 0;
+    padding-top: 0;
+}
+
+#banner {
+    position: relative;
+    height: 193px;
+    text-align: left;
+}
+
+#title {
+    position: absolute;
+    z-index: 3;
+    top: 10px;
+    left: 130px;
+    padding: 5px;
+    text-align: right;
+}
+
+#title h1 {
+    font: 700 4em "trebuchet ms", serif;
+    letter-spacing: -3px;
+    text-transform: lowercase;
+    color: #FFF;
+}
+
+#banner-left {
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    right: 826px;
+}
+
+#banner-center {
+    position: absolute;
+    z-index: 2;
+    top: 140px;
+    right: 470px;
+}
+
+#banner-right {
+    position: absolute;
+    z-index: 0;
+    top: 0px;
+    right: 0px;
+}

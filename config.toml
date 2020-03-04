@@ -1,3 +1,19 @@
-baseURL = "http://example.org/"
+baseURL = "https://www.magiccityconnector.org/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Magic City Connector"
+theme = "mgc"
+
+###################################### Navigation ######################################
+[menu]
+
+  [[menu.main]]
+  name = "home"
+  url = "home"
+
+  [[menu.main]]
+  name = "news"
+  url = "posts"
+
+  [[menu.main]]
+  name = "details"
+  url = "details"
