@@ -8,5 +8,5 @@ I've added an FAQ about Cable Lifts. This information comes directly
 from Doppelmayr, one of the largest air lift manufacturers.
 
  
-The FAQ can be found here.
+The FAQ can be found [here](/details/faq).
 

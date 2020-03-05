@@ -6,14 +6,7 @@
         {{- partial "banner.html" . }}
         <div id="content">
           {{- partial "mainmenu.html" . }}
-          <div class="flex-container">
-            <div id="sidebar">
-              {{- partial "sidebar.html" . }}
-            </div>
-            <div id="main-content">
-              {{- block "content" . }}{{- end }}
-            </div>
-          </div>
+          {{- block "content" . }}{{- end }}
         </div>
         {{- partial "footer.html" . -}}
     </body>

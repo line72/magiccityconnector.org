@@ -1,16 +1,31 @@
 {{ define "content" }}
 
-<section class="container list">
-  <ul>
-    {{ range first 3 .Paginator.Pages }}
-    <li>
-      <h1>{{ .Title }}</h1>
-      <h2>Posted on {{ .Date.Format "January 2, 2006" }}</h2>
-      <div class="read-more"><a href="{{ .Permalink }}">Read full post »</a></div>
-    </li>
+<div class="flex-container">
+  <div id="sidebar">
+    {{ range .Pages.GroupByDate "2006-01" "asc" }}
+    <h3>{{ .Key }}</h3>
+    <ul>
+      {{ range .Pages.ByTitle }}
+      <li>
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+      </li>
+      {{ end }}
+    </ul>
     {{ end }}
-  </ul>
-
-</section>
+  </div>
+  <div id="main-content">
+    <section class="container list">
+      <ul>
+        {{ range first 3 .Paginator.Pages }}
+        <li>
+          <h1>{{ .Title }}</h1>
+          <h2>Posted on {{ .Date.Format "January 2, 2006" }}</h2>
+          <div class="read-more"><a href="{{ .Permalink }}">Read full post »</a></div>
+        </li>
+        {{ end }}
+      </ul>
+    </section>
+  </div>
+</div>
 
 {{ end }}
