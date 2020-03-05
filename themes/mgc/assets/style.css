@@ -135,7 +135,7 @@ body {
     color: #eee;
 }
 
-.section h1, h2, p {
+.section h1, .section h2, .section p {
     margin: 0;
     padding: 10px 15px;
 }
@@ -168,7 +168,7 @@ body {
     text-decoration: none;
 }
 
-.list h1, h2, p {
+.list h1, .list h2, .list p {
     margin: 0;
     padding: 5px 0px;
 }
@@ -196,10 +196,6 @@ body {
 .list-sidebar {
     color: #eee;
     margin: 0px 30px;
-}
-
-.list-sidebar h1, h2, h3, p {
-
 }
 
 .list-sidebar a {
