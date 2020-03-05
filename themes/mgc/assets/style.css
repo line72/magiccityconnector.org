@@ -103,3 +103,53 @@ body {
     color: #65ebff;
     border-top: 5px solid #000;
 }
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+#sidebar {
+    min-width: 250px;
+    max-width: 400px;
+    text-align: left;
+}
+
+.subnav-header {
+    margin: 10px 30px;
+    padding: 0 30px;
+}
+
+.subnav-item {
+    color: #eee;
+}
+
+.nav-link {
+    color: #8BE6FA;
+}
+
+#main-content {
+    text-align: left;
+    width: 100%;
+    color: #eee;
+}
+
+.section h1, h2, p {
+    margin: 0;
+    padding: 10px 15px;
+}
+
+.section h1 {
+    color: #9FF3FF;
+    font: 400 1.5em "trebuchet ms", serif;
+}
+
+.section h2 {
+    color: #F8D766;
+    font: 400 1.3em "trebuchet ms", serif;
+}
+
+.section p {
+    text-align: justify;
+}

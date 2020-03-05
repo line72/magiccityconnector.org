@@ -24,12 +24,12 @@ theme = "mgc"
         weight = 3
 
         [[menu.details]]
-        name = "why"
+        name = "Why"
         url = "/details/why"
         weight = 1
 
         [[menu.details]]
-        name = "where"
+        name = "Where"
         url = "/details/where"
         weight = 2
 

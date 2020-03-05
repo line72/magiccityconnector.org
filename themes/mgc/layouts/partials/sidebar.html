@@ -2,9 +2,9 @@
 <div class="sidebar">
   {{ if .Params.submenu }}
     {{ $submenu := .Params.submenu }}
-    <ul>
+    <ul class="subnav-header">
       {{ range index $.Site.Menus $submenu }}
-      <li class="nav-item">
+      <li class="subnav-item">
         <a class="nav-link" href="{{ .URL }}">{{ .Name }}</a>
       </li>
       {{ end }}
