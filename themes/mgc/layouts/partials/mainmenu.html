@@ -1,10 +1,10 @@
 <!-- navigation -->
-<header>
-  <div class="container">
+<header id="main-menu">
+  <ul class="nav-header">
     {{ range .Site.Menus.main }}
     <li class="nav-item">
       <a class="nav-link" href="{{ .URL }}">{{ .Name }}</a>
     </li>
     {{ end }}
-  </div>
+  </ul>
 </header>

@@ -12,6 +12,12 @@ theme = "mgc"
         weight = 1
 
         [[menu.main]]
+        name = "news"
+        identifier = "news"
+        url = "/posts"
+        weight = 2
+
+        [[menu.main]]
         name = "details"
         identifier = "details"
         url = "/details/why"
