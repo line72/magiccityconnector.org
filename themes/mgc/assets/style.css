@@ -161,7 +161,7 @@ body {
 .list li {
     list-style: none;
     margin: 0;
-    padding: 0;
+    padding-bottom: 30px;
 }
 
 .list li a {
@@ -181,4 +181,32 @@ body {
 .list h2 {
     color: #F8D766;
     font: 400 1.3em "trebuchet ms", serif;
+}
+
+.list a {
+    color: #8BE6FA;
+    text-decoration: none;
+}
+
+.list a:hover {
+    text-decoration: underline;
+
+}
+
+.list-sidebar {
+    color: #eee;
+    margin: 0px 30px;
+}
+
+.list-sidebar h1, h2, h3, p {
+
+}
+
+.list-sidebar a {
+    color: #8BE6FA;
+    text-decoration: none;
+}
+
+.list-sidebar a:hover {
+    text-decoration: underline;
 }

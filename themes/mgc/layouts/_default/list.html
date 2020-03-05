@@ -1,7 +1,7 @@
 {{ define "content" }}
 
 <div class="flex-container">
-  <div id="sidebar">
+  <div id="sidebar" class="list-sidebar">
     {{ range .Pages.GroupByDate "2006-01" "asc" }}
     <h3>{{ .Key }}</h3>
     <ul>
