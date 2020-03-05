@@ -17,6 +17,15 @@ body {
     padding-top: 0;
 }
 
+a {
+    color: #8BE6FA;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 #content {
     width: 94%;
     max-width: 1000px;
@@ -190,7 +199,6 @@ body {
 
 .list a:hover {
     text-decoration: underline;
-
 }
 
 .list-sidebar {
