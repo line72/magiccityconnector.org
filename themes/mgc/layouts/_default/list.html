@@ -2,7 +2,7 @@
 
 <div class="flex-container">
   <div id="sidebar" class="list-sidebar">
-    {{ range .Pages.GroupByDate "2006-01" "asc" }}
+    {{ range .Pages.GroupByDate "2006-01" "desc" }}
     <h3>{{ .Key }}</h3>
     <ul>
       {{ range .Pages.ByTitle }}
