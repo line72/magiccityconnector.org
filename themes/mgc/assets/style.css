@@ -153,3 +153,32 @@ body {
 .section p {
     text-align: justify;
 }
+
+.list ul {
+
+}
+
+.list li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.list li a {
+    text-decoration: none;
+}
+
+.list h1, h2, p {
+    margin: 0;
+    padding: 5px 0px;
+}
+
+.list h1 {
+    color: #9FF3FF;
+    font: 400 1.5em "trebuchet ms", serif;
+}
+
+.list h2 {
+    color: #F8D766;
+    font: 400 1.3em "trebuchet ms", serif;
+}

@@ -1,12 +1,12 @@
 {{ define "content" }}
 
 <section class="container list">
-  <h1 class="title">{{ .Title }}</h1>
-  LIST
   <ul>
-    {{ range .Paginator.Pages }}
+    {{ range first 3 .Paginator.Pages }}
     <li>
-      <span>{{ .Date.Format "January 2, 2006" }}</span><a href="{{ .Permalink }}">{{ .Title }}</a>
+      <h1>{{ .Title }}</h1>
+      <h2>Posted on {{ .Date.Format "January 2, 2006" }}</h2>
+      <div class="read-more"><a href="{{ .Permalink }}">Read full post »</a></div>
     </li>
     {{ end }}
   </ul>
