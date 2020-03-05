@@ -5,6 +5,14 @@ draft: false
 submenu: "details"
 ---
 
-# Where
+# Where?
 
-This is the where
+The proposed location is to initially connect downtown Homewood to 5
+Points South by going over Red Mountain. A stop will be located in
+downtown Homewood, Vulcan Park on Red Mountain, and then 5 Points
+South.  The Magic City Connector could then continue down 20th Street
+with stops near the University of Alabama at Birmingham, Rail Road
+Park, the Financial District, and finally terminating at the BJCC
+adjacent to the new Entertainment District that is under construction.
+
+## Magic City Connector Location

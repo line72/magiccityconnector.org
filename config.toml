@@ -33,3 +33,13 @@ theme = "mgc"
         url = "/details/where"
         weight = 2
 
+        [[menu.details]]
+        name = "Other Cities"
+        url = "/details/other-cities"
+        weight = 3
+
+        [[menu.details]]
+        name = "FAQ"
+        url = "/details/faq"
+        weight = 4
+
