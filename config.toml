@@ -6,12 +6,24 @@ theme = "mgc"
 ###################################### Navigation ######################################
 [menu]
 
-  [[menu.main]]
-  name = "news"
-  url = "posts"
-  weight = 2
+        [[menu.main]]
+        name = "home"
+        url = "/"
+        weight = 1
 
-  [[menu.main]]
-  name = "details"
-  url = "details"
-  weight = 3
+        [[menu.main]]
+        name = "details"
+        identifier = "details"
+        url = "/details/why"
+        weight = 3
+
+        [[menu.details]]
+        name = "why"
+        url = "/details/why"
+        weight = 1
+
+        [[menu.details]]
+        name = "where"
+        url = "/details/where"
+        weight = 2
+

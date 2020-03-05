@@ -6,7 +6,8 @@
         {{- partial "banner.html" . }}
         {{- partial "mainmenu.html" . }}
         <div id="content">
-        {{- block "content" . }}{{- end }}
+          {{- partial "sidebar.html" . }}
+          {{- block "content" . }}{{- end }}
         </div>
         {{- partial "footer.html" . -}}
     </body>

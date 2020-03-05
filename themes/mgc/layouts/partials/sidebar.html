@@ -1,0 +1,14 @@
+<!-- sidebar navigation -->
+<div class="sidebar">
+  {{ if .Params.submenu }}
+    {{ $submenu := .Params.submenu }}
+    <ul>
+      {{ range index $.Site.Menus $submenu }}
+      <li class="nav-item">
+        <a class="nav-link" href="{{ .URL }}">{{ .Name }}</a>
+      </li>
+      {{ end }}
+    </ul>
+  {{ end }}
+</div>
+  
