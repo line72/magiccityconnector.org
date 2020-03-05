@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+  <name>Magic City Connector</name>
+  <description><![CDATA[Magic City Connector Path
+
+http://magiccityconnector.line72.net/]]></description>
+  <Style id="style7">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style4">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style8">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style5">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style1">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style2">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style6">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style3">
+    <LineStyle>
+      <color>73FF0000</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Placemark>
+    <name>Downtown Homewood Station</name>
+    <description><![CDATA[<div dir="ltr">Downtown Homewood Station</div>]]></description>
+    <styleUrl>#style7</styleUrl>
+    <Point>
+      <coordinates>-86.791573,33.479023,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Vulcan Park Station</name>
+    <description><![CDATA[<div dir="ltr">Vulcan Park Station</div>]]></description>
+    <styleUrl>#style4</styleUrl>
+    <Point>
+      <coordinates>-86.794708,33.491203,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>5 Points South Station</name>
+    <description><![CDATA[<div dir="ltr">5 Points South Station</div>]]></description>
+    <styleUrl>#style8</styleUrl>
+    <Point>
+      <coordinates>-86.795433,33.499378,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>UAB Station</name>
+    <description><![CDATA[<div dir="ltr">UAB Station</div>]]></description>
+    <styleUrl>#style5</styleUrl>
+    <Point>
+      <coordinates>-86.799767,33.506176,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Railroad Park Station</name>
+    <description><![CDATA[<div dir="ltr">Railroad Park Station</div>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>-86.804779,33.512642,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Financial District Station</name>
+    <description><![CDATA[<div dir="ltr">Financial District Station</div>]]></description>
+    <styleUrl>#style2</styleUrl>
+    <Point>
+      <coordinates>-86.807472,33.516727,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>BJCC Station</name>
+    <description><![CDATA[<div dir="ltr">BJCC Station</div>]]></description>
+    <styleUrl>#style6</styleUrl>
+    <Point>
+      <coordinates>-86.810722,33.523914,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Magic City Connector Route</name>
+    <description><![CDATA[<div dir="ltr">Magic City Connector Route</div>]]></description>
+    <styleUrl>#style3</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -86.791550,33.478966,0.000000
+        -86.791740,33.479092,0.000000
+        -86.791771,33.482147,0.000000
+        -86.791702,33.484001,0.000000
+        -86.792336,33.486275,0.000000
+        -86.793442,33.489506,0.000000
+        -86.794678,33.491203,0.000000
+        -86.795074,33.492485,0.000000
+        -86.794899,33.492939,0.000000
+        -86.793259,33.494228,0.000000
+        -86.792549,33.495239,0.000000
+        -86.792595,33.496601,0.000000
+        -86.794151,33.497719,0.000000
+        -86.795311,33.498604,0.000000
+        -86.795441,33.499374,0.000000
+        -86.796028,33.500027,0.000000
+        -86.796272,33.500599,0.000000
+        -86.797432,33.502342,0.000000
+        -86.799721,33.505726,0.000000
+        -86.799698,33.506172,0.000000
+        -86.800102,33.506676,0.000000
+        -86.800697,33.507175,0.000000
+        -86.801857,33.508884,0.000000
+        -86.803818,33.511726,0.000000
+        -86.804314,33.512470,0.000000
+        -86.804726,33.512665,0.000000
+        -86.805061,33.513592,0.000000
+        -86.807045,33.516548,0.000000
+        -86.807449,33.516720,0.000000
+        -86.807686,33.517429,0.000000
+        -86.809189,33.519779,0.000000
+        -86.810997,33.522240,0.000000
+        -86.810677,33.523891,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+</Document>
+</kml>

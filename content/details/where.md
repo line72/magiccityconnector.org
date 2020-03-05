@@ -16,3 +16,5 @@ Park, the Financial District, and finally terminating at the BJCC
 adjacent to the new Entertainment District that is under construction.
 
 ## Magic City Connector Location
+
+{{< partial "map.html" >}}
